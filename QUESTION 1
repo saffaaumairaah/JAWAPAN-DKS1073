@@ -1,0 +1,8 @@
+Question 1 – Simple Decision (Basic if)
+Scenario:
+A program asks the user to enter their age.
+If the age entered is 18 or above, display:
+"You are eligible to vote."
+age = int(input("Please enter your age :"))
+if age >= 18:
+    print("You're eligible to vote")
