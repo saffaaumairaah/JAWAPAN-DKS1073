@@ -1,0 +1,15 @@
+Question 4 – Grade Classification (Nested if-else)
+Scenario:
+80 and above : Grade A
+60–79       : Grade B
+50–59       : Grade C
+Below 50    : Fail
+score = int(input("Please enter your score :"))
+if score >= 80:
+    print("Grade A")
+elif score >= 60:
+    print("Grade B")
+elif score >= 50:
+    print("Grade C")
+else:
+    print("Fail")
